@@ -1,0 +1,39 @@
+{
+  "name": "greatermargins",
+  "version": "1.0.0",
+  "description": "greater margins using mern",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server.js",
+    "client-start": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client-start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaybetabulls/react-gm.git"
+  },
+  "keywords": [
+    "mongodb",
+    "expressjs",
+    "reactjs",
+    "nodejs"
+  ],
+  "author": "vinay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinaybetabulls/react-gm/issues"
+  },
+  "homepage": "https://github.com/vinaybetabulls/react-gm#readme",
+  "dependencies": {
+    "encryptjs": "^2.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
+    "nodemailer": "^5.1.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
